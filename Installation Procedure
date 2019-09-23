@@ -1,0 +1,24 @@
+Installation-
+To have MSsql server on your Mac u need to follow the following Procedure-
+A)  Follow the following Documentation to install the Docker in your Mac which act as interface. 
+    https://docs.docker.com/docker-for-mac/install/
+B)  After installing Docker the next thing u need to do is to install kitematic by clicking right on the Docker icon on the top 
+    of mac desktop and then double click on kitematic option then search mssql server and download it.
+C)  Now u need to install the Azure Data Studio for the managing the databases. Follow the link to download it 
+    -https://docs.microsoft.com/en-us/sql/azure-data-studio/download?view=sql-server-2017 
+    
+    For further clearity  watch this video-  https://www.youtube.com/watch?v=KdvGhRkLjTM
+
+Checking-
+For ensuring whether the docker is installed or not in the terminal write Docker version.
+After this write docker ps, docker container etc to ensure further checking
+then write docker container ls to know about the container present in docker.
+This command is used to move the file .bak format to the Azure data studio where it could be restored to extract the databases
+present.
+Command for the same to be used in the terminal 
+-- sudo docker cp /Users/apple/Downloads/a.bak 1d7363dda97a:/var/opt/mssql/backup
+
+For more clearity read the documentation link followed -- 
+https://database.guide/how-to-restore-a-sql-server-database-on-a-mac-using-azure-data-studio/
+
+Hope u like the procedure for further clearity contact me on this platform or mail me at mvishnumehta97@gmail.com
